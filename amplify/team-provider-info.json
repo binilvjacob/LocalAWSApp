@@ -1,0 +1,20 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-lihome-dev-180811-authRole",
+      "UnauthRoleArn": "arn:aws:iam::054879869081:role/amplify-lihome-dev-180811-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::054879869081:role/amplify-lihome-dev-180811-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-lihome-dev-180811-deployment",
+      "UnauthRoleName": "amplify-lihome-dev-180811-unauthRole",
+      "StackName": "amplify-lihome-dev-180811",
+      "StackId": "arn:aws:cloudformation:us-east-1:054879869081:stack/amplify-lihome-dev-180811/69f5bb50-3efe-11ec-89ce-12006d6b8ee3",
+      "AmplifyAppId": "d3n84yxcvrv73m"
+    },
+    "categories": {
+      "auth": {
+        "lihomeb5badfea": {}
+      }
+    }
+  }
+}

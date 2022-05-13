@@ -1,0 +1,520 @@
+{
+  "data": [
+    {
+      "zid": 210,
+      "gatesub": "gatewayA",
+      "name": "Living Room",
+      "lamps": [
+        {
+          "lid": 210,
+          "name": "Master Hall",
+          "type": "9w",
+          "maxlevel": 100,
+          "minlevel": 0
+        },
+        {
+          "lid": 1,
+          "name": "Wall Wash",
+          "type": "9w",
+          "maxlevel": 100,
+          "minlevel": 0
+        },
+        {
+          "lid": 14,
+          "name": "Hanging 1",
+          "type": "7w",
+          "maxlevel": 100,
+          "minlevel": 0
+        },
+        {
+          "lid": 54,
+          "name": "Spotlight",
+          "type": "12w",
+          "maxlevel": 100,
+          "minlevel": 0
+        },
+        {
+          "lid": 7,
+          "name": "Missing",
+          "type": "9w",
+          "maxlevel": 100,
+          "minlevel": 0
+        },
+        {
+          "lid": 8,
+          "name": "Cove 1",
+          "type": "9w",
+          "maxlevel": 100,
+          "minlevel": 0
+        },
+        {
+          "lid": 9,
+          "name": "Cove 2",
+          "type": "9w",
+          "maxlevel": 100,
+          "minlevel": 0
+        },
+        {
+          "lid": 10,
+          "name": "Cove 3",
+          "type": "9w",
+          "maxlevel": 100,
+          "minlevel": 0
+        },
+        {
+          "lid": 12,
+          "name": "Cove 4",
+          "type": "9w",
+          "maxlevel": 100,
+          "minlevel": 0
+        },
+        {
+          "lid": 59,
+          "name": "Corridor",
+          "type": "9w",
+          "maxlevel": 100,
+          "minlevel": 0
+        },
+        {
+          "lid": 42,
+          "name": "Stair",
+          "type": "9w",
+          "maxlevel": 100,
+          "minlevel": 0
+        },
+        {
+          "lid": 61,
+          "name": "Missing",
+          "type": "9w",
+          "maxlevel": 100,
+          "minlevel": 0
+        },
+        {
+          "lid": 62,
+          "name": "Wall Wash 2",
+          "type": "9w",
+          "maxlevel": 100,
+          "minlevel": 0
+        },
+        {
+          "lid": 3,
+          "name": "Corridor 2",
+          "type": "9w",
+          "maxlevel": 100,
+          "minlevel": 0
+        },
+        {
+          "lid": 4,
+          "name": "Stair",
+          "type": "9w",
+          "maxlevel": 100,
+          "minlevel": 0
+        },
+        {
+          "lid": 6,
+          "name": "Petals",
+          "type": "9w",
+          "maxlevel": 100,
+          "minlevel": 0
+        }
+
+      ],
+      "curtains": [
+        {
+          "lid": 210,
+          "name": "Hall Master",
+          "type": "9w",
+          "maxlevel": 100,
+          "minlevel": 0
+        },
+        {
+          "lid": 72,
+          "name": "Gate",
+          "type": "9w",
+          "maxlevel": 100,
+          "minlevel": 0
+        },
+        {
+          "lid": 65,
+          "name": "Cur 1 B",
+          "type": "9w",
+          "maxlevel": 100,
+          "minlevel": 0
+        },
+        {
+          "lid":66,
+          "name": "Cur 1 F",
+          "type": "7w",
+          "maxlevel": 100,
+          "minlevel": 0
+        },
+        {
+          "lid": 67,
+          "name": "Cur 2 F",
+          "type": "12w",
+          "maxlevel": 100,
+          "minlevel": 0
+        },
+        {
+          "lid": 68,
+          "name": "Cur 2 B",
+          "type": "9w",
+          "maxlevel": 100,
+          "minlevel": 0
+        },
+        {
+          "lid": 69,
+          "name": "Cur 3 F",
+          "type": "9w",
+          "maxlevel": 100,
+          "minlevel": 0
+        },
+        {
+          "lid": 70,
+          "name": "Cur 3 B",
+          "type": "9w",
+          "maxlevel": 100,
+          "minlevel": 0
+        },
+        {
+          "lid": 71,
+          "name": "Cur Stairs",
+          "type": "9w",
+          "maxlevel": 100,
+          "minlevel": 0
+        }
+      ],
+      "others": [
+        {
+          "lid": 17,
+          "type": "9w",
+          "maxlevel": 100,
+          "minlevel": 0
+        },
+        {
+          "lid": 18,
+          "type": "7w",
+          "maxlevel": 100,
+          "minlevel": 0
+        },
+        {
+          "lid": 19,
+          "type": "12w",
+          "maxlevel": 100,
+          "minlevel": 0
+        },
+        {
+          "lid": 20,
+          "type": "9w",
+          "maxlevel": 100,
+          "minlevel": 0
+        }
+      ]
+    },
+    {
+      "zid": 211,
+      "name": "Stairs",
+      "gatesub": "gatewayA",
+      "lamps": [
+        {
+          "lid": 3,
+          "type": "9w",
+          "maxlevel": 100,
+          "minlevel": 0
+        },
+        {
+          "lid": 4,
+          "type": "7w",
+          "maxlevel": 100,
+          "minlevel": 0
+        },
+        {
+          "lid": 6,
+          "type": "12w",
+          "maxlevel": 100,
+          "minlevel": 0
+        }
+
+      ],
+      "curtains": [
+        {
+          "lid": 25,
+          "type": "9w",
+          "maxlevel": 100,
+          "minlevel": 0
+        },
+        {
+          "lid": 26,
+          "type": "7w",
+          "maxlevel": 100,
+          "minlevel": 0
+        },
+        {
+          "lid": 27,
+          "type": "12w",
+          "maxlevel": 100,
+          "minlevel": 0
+        },
+        {
+          "lid": 28,
+          "type": "9w",
+          "maxlevel": 100,
+          "minlevel": 0
+        }
+      ],
+      "others": [
+        {
+          "lid": 29,
+          "type": "9w",
+          "maxlevel": 100,
+          "minlevel": 0
+        },
+        {
+          "lid": 30,
+          "type": "7w",
+          "maxlevel": 100,
+          "minlevel": 0
+        },
+        {
+          "lid": 31,
+          "type": "12w",
+          "maxlevel": 100,
+          "minlevel": 0
+        },
+        {
+          "lid": 32,
+          "type": "9w",
+          "maxlevel": 100,
+          "minlevel": 0
+        }
+      ]
+    },
+    {
+      "zid": 212,
+      "name": "Outdoor",
+      "gatesub": "gatewayA",
+      "lamps": [
+        {
+          "lid": 13,
+          "type": "9w",
+          "maxlevel": 100,
+          "minlevel": 0
+        },
+        {
+          "lid": 35,
+          "type": "7w",
+          "maxlevel": 100,
+          "minlevel": 0
+        },
+        {
+          "lid": 33,
+          "type": "12w",
+          "maxlevel": 100,
+          "minlevel": 0
+        },
+        {
+          "lid": 36,
+          "type": "9w",
+          "maxlevel": 100,
+          "minlevel": 0
+        },
+        {
+          "lid": 37,
+          "type": "12w",
+          "maxlevel": 100,
+          "minlevel": 0
+        },
+        {
+          "lid": 38,
+          "type": "12w",
+          "maxlevel": 100,
+          "minlevel": 0
+        },
+        {
+          "lid": 39,
+          "type": "12w",
+          "maxlevel": 100,
+          "minlevel": 0
+        },
+        {
+          "lid": 40,
+          "type": "12w",
+          "maxlevel": 100,
+          "minlevel": 0
+        },
+        {
+          "lid": 41,
+          "type": "12w",
+          "maxlevel": 100,
+          "minlevel": 0
+        },
+        {
+          "lid": 50,
+          "type": "12w",
+          "maxlevel": 100,
+          "minlevel": 0
+        },
+        {
+          "lid": 5,
+          "type": "12w",
+          "maxlevel": 100,
+          "minlevel": 0
+        },
+        {
+          "lid": 55,
+          "type": "12w",
+          "maxlevel": 100,
+          "minlevel": 0
+        },
+        {
+          "lid": 2,
+          "type": "12w",
+          "maxlevel": 100,
+          "minlevel": 0
+        },
+        {
+          "lid": 43,
+          "type": "12w",
+          "maxlevel": 100,
+          "minlevel": 0
+        }
+      ],
+      "curtains": [
+        {
+          "lid": 45,
+          "type": "9w",
+          "maxlevel": 100,
+          "minlevel": 0
+        },
+        {
+          "lid": 46,
+          "type": "7w",
+          "maxlevel": 100,
+          "minlevel": 0
+        },
+        {
+          "lid": 47,
+          "type": "12w",
+          "maxlevel": 100,
+          "minlevel": 0
+        },
+        {
+          "lid": 48,
+          "type": "9w",
+          "maxlevel": 100,
+          "minlevel": 0
+        }
+      ],
+      "others": [
+        {
+          "lid": 49,
+          "type": "9w",
+          "maxlevel": 100,
+          "minlevel": 0
+        },
+        {
+          "lid": 50,
+          "type": "7w",
+          "maxlevel": 100,
+          "minlevel": 0
+        },
+        {
+          "lid": 51,
+          "type": "12w",
+          "maxlevel": 100,
+          "minlevel": 0
+        },
+        {
+          "lid": 52,
+          "type": "9w",
+          "maxlevel": 100,
+          "minlevel": 0
+        }
+      ]
+    },
+    {
+      "zid": 213,
+      "name": "Bathroom",
+      "gatesub": "gatewayA",
+      "lamps": [
+        {
+          "lid": 53,
+          "type": "9w",
+          "maxlevel": 100,
+          "minlevel": 0
+        },
+        {
+          "lid": 54,
+          "type": "7w",
+          "maxlevel": 100,
+          "minlevel": 0
+        },
+        {
+          "lid": 55,
+          "type": "12w",
+          "maxlevel": 100,
+          "minlevel": 0
+        },
+        {
+          "lid": 56,
+          "type": "9w",
+          "maxlevel": 100,
+          "minlevel": 0
+        }
+      ],
+      "curtains": [
+        {
+          "lid": 57,
+          "type": "9w",
+          "maxlevel": 100,
+          "minlevel": 0
+        },
+        {
+          "lid": 58,
+          "type": "7w",
+          "maxlevel": 100,
+          "minlevel": 0
+        },
+        {
+          "lid": 59,
+          "type": "12w",
+          "maxlevel": 100,
+          "minlevel": 0
+        },
+        {
+          "lid": 60,
+          "type": "9w",
+          "maxlevel": 100,
+          "minlevel": 0
+        }
+      ],
+      "others": [
+        {
+          "lid": 61,
+          "type": "9w",
+          "maxlevel": 100,
+          "minlevel": 0
+        },
+        {
+          "lid": 62,
+          "type": "7w",
+          "maxlevel": 100,
+          "minlevel": 0
+        },
+        {
+          "lid": 63,
+          "type": "12w",
+          "maxlevel": 100,
+          "minlevel": 0
+        },
+        {
+          "lid": 64,
+          "type": "9w",
+          "maxlevel": 100,
+          "minlevel": 0
+        }
+      ]
+    }
+  ]
+}
+
