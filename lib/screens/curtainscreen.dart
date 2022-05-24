@@ -387,6 +387,9 @@ class _CurtainPageState extends State<CurtainPage> {
                                           mqtt_sub_status == true) {
                                         qry_add1 = selected_lamp1;
                                         toast_flag = 0;
+
+                                        /// TO LOCAL HTTP
+
                                         publish(
                                             '{"lid":$selected_lamp1,"cmd":204,"echo":1}',
                                             gateway_id1);
@@ -635,6 +638,9 @@ class _testWidgetState extends State<testWidget> {
                       onTap: (startTimer, btnState) {
                         try {
                           toast_flag = 0;
+
+                          /// TO LOCAL HTTP
+
                           publish(
                               '{"lid":$power_button_zone,"cmd":$power_button_cmd,"echo":1}',
                               gateway_id1);
@@ -729,6 +735,9 @@ class _moodWidget1State extends State<moodWidget1> {
                                 });
                                 try {
                                   toast_flag = 0;
+
+                                  /// TO LOCAL HTTP
+
                                   publish(
                                       '{"data":$scene_button_zone1,"cmd":$scene_button_cmd1,"lid":$scene1_no,"echo":1}',
                                       ourList[HomeScreen.roomIndex]['gatesub']);
@@ -997,6 +1006,8 @@ class _sliderState extends State<slider> {
                               qry_add1 = selected_lamp1;
                               try {
                                 toast_flag = 0;
+                                /// TO LOCAL HTTP
+
                                 publish(
                                     '{"lid":$selected_lamp1,"cmd":202,"data":$int_slider_value1,"echo":1}',
                                     gateway_id1);

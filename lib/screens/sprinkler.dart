@@ -402,6 +402,7 @@ class _SprinklerPageState extends State<SprinklerPage> {
                               }
                               try {
                                 toast_flag = 0;
+                                /// TO LOCAL HTTP
                                 publish(
                                     '{"lid":$selected_lamp2,"cmd":$slider_cmd2,"data":$sendval,"echo":1}',
                                     gateway_id2);
@@ -625,6 +626,7 @@ class _testWidgetState extends State<testWidget> {
                       onTap: (startTimer, btnState) {
                         try {
                           toast_flag = 0;
+                          /// TO LOCAL HTTP
                           publish(
                               '{"lid":$power_button_zone2,"cmd":$power_button_cmd2,"devid":$device_id2,"echo":1,"${ourList[HomeScreen.roomIndex]['gatename']}":1}',
                               gateway_id2);
@@ -718,6 +720,7 @@ class _moodWidget2State extends State<moodWidget2> {
                                 });
                                 try {
                                   toast_flag = 0;
+                                  /// TO LOCAL HTTP
                                   publish(
                                       '{"data":$scene_button_zone2,"cmd":$scene_button_cmd2,"lid":$scene_no,"echo":1,"${ourList[HomeScreen.roomIndex]['gatename']}":1}',
                                       gateway_id2);
@@ -816,6 +819,7 @@ class _queryState extends State<query> {
                               mqtt_sub_status == true) {
                             qry_add2 = selected_lamp2;
                             toast_flag = 0;
+                            /// TO LOCAL HTTP
                             publish('{"lid":$qry_add2,"cmd":$qry_cmd2}',
                                 ourList[HomeScreen.roomIndex]['gatesub']);
                             toast_timer =
@@ -916,6 +920,7 @@ class _sliderState extends State<slider> {
                                           mqtt_sub_status == true) {
                                         qry_add2 = selected_lamp2;
                                         toast_flag = 0;
+                                        /// TO LOCAL HTTP
                                         publish(
                                             '{"lid":$selected_lamp2,"cmd":$slider_cmd2,"echo":1}',
                                             gateway_id2);
@@ -1051,7 +1056,7 @@ class _sliderState extends State<slider> {
                                                   if (mqtt_connection_status ==
                                                       true) {
                                                     toast_flag = 0;
-
+                                                    /// TO LOCAL HTTP
                                                     publish(
                                                         '{"lid":$selected_lamp2,"cmd":$slider_cmd2,"echo":1}',
                                                         gateway_id2);
@@ -1147,6 +1152,7 @@ class _sliderState extends State<slider> {
                               qry_add2 = selected_lamp2;
                               try {
                                 toast_flag = 0;
+                                /// TO LOCAL HTTP
                                 publish(
                                     '{"lid":$selected_lamp2,"cmd":$slider_cmd2,"data":$int_slider_value2,"echo":1}',
                                     gateway_id2);
@@ -1210,6 +1216,7 @@ class _lampState extends State<lamp> {
                             qry_add = selected_lamp2;
                             if (selected_lamp2 <= 65) {
                               toast_flag = 0;
+                              /// TO LOCAL HTTP
                               publish(
                                   '{"lid":$selected_lamp2,"cmd":205,"data":0,"echo":0}',
                                   gateway_id2);

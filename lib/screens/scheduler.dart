@@ -188,6 +188,7 @@ class EmployeesListState extends State<EmployeesListScreen> {
                                       icon: Icon(Icons.delete),
                                       color: Colors.white,
                                       onPressed: () {
+                                        /// TO LOCAL HTTP
                                         publish(
                                             '{"sc_id": ${getEmployee.empId} ,"sc_cmd":"0", "dali_cmd":"0" , "dali_data":"0", "dali_addr":"0", "sc_repeat":"0", "sc_destination_addr": "0", "sc_hour": "0", "sc_min": "0" ,"sc_status": "0","dev_status": "0","sc_name":"0"}',
                                             "679303000/schedule_test");
@@ -257,6 +258,7 @@ class SwitchClass extends State<SwitchScreen> {
     } else {
       dummy_stat = "1";
     }
+    /// TO LOCAL HTTP
     publish(
         '{"sc_id": ${listEmployees[a].empId},"sc_name":"${listEmployees[a].empName}", "sc_cmd":"3", "dali_cmd":"$dalicmd" , "dali_data":"${listEmployees[a].dalidata}", "dali_addr":"${listEmployees[a].daliaddr}", "sc_repeat":"${listEmployees[a].screpeat}", "sc_destination_addr": "${listEmployees[a].scdestaddr}", "sc_hour": "$hourval", "sc_min": "$minval" ,"sc_status":"$dummy_stat","dev_status":"${listEmployees[a].empSalary}" }',
         "679303000/schedule_test");

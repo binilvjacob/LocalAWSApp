@@ -356,6 +356,7 @@ class _HomePageState extends State<HomePage> {
                               ),
                               onTap: () {
                                 toast_flag = 0;
+                                /// TO LOCAL HTTP
                                 publish(
                                     '{"lid":$selected_lamp,"cmd":$qry_cmd,"data":50,"echo":0}',
                                     gateway_id);
@@ -587,6 +588,7 @@ class _testWidgetState extends State<testWidget> {
                     onTap: (startTimer, btnState) {
                       try {
                         toast_flag = 0;
+                        /// TO LOCAL HTTP
                         publish(
                             '{"lid":${ourList[HomeScreen.roomIndex]['zid']},"cmd":$power_button_cmd,"devid":$device_id,"echo":1}',
                             gateway_id);
@@ -656,6 +658,7 @@ class _moodWidgetState extends State<moodWidget> {
         });
         try {
           toast_flag = 0;
+          /// TO LOCAL HTTP
           publish(
               '{"data":$scene_no,"cmd":231,"lid":${ourList[HomeScreen.roomIndex]['zid']},"echo":1}',
               ourList[HomeScreen.roomIndex]['lamps'][0]['gateway_id']);
@@ -732,6 +735,7 @@ class _moodWidgetState extends State<moodWidget> {
                                   });
                                   try {
                                     toast_flag = 0;
+                                    /// TO LOCAL HTTP
                                     publish(
                                         '{"data":$scene_no,"cmd":$scene_button_cmd,"lid":${ourList[HomeScreen.roomIndex]['zid']},"echo":1}',
                                         ourList[HomeScreen.roomIndex]['lamps']
@@ -917,6 +921,7 @@ class _sliderState extends State<slider> {
                                         mqtt_sub_status == true) {
                                       qry_add = selected_lamp;
                                       toast_flag = 0;
+                                      /// TO LOCAL HTTP
                                       publish(
                                           '{"lid":$selected_lamp,"cmd":$slider_cmd,"echo":1 }',
                                           gateway_id);
@@ -1057,7 +1062,7 @@ class _sliderState extends State<slider> {
                                                   } else {
                                                     print('o man');
                                                   }
-
+                                                  /// TO LOCAL HTTP
                                                   publish(
                                                       '{"lid":$selected_lamp,"cmd":$slider_cmd,"echo":1}',
                                                       gateway_id);
@@ -1151,6 +1156,7 @@ class _sliderState extends State<slider> {
                             qry_add = selected_lamp;
                             try {
                               toast_flag = 0;
+                              /// TO LOCAL HTTP
                               publish(
                                   '{"lid":$selected_lamp,"cmd":$slider_cmd,"data":$int_slider_value,"echo":1}',
                                   gateway_id);
@@ -1212,6 +1218,7 @@ class _lampState extends State<lamp> {
                               refresh_flag = 0;
                               toast_flag = 0;
                               print('$selected_lamp');
+                              /// TO LOCAL HTTP
                               publish(
                                   '{"lid":$selected_lamp,"cmd":39,"data":0,"echo":0}',
                                   gateway_id);

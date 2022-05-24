@@ -858,6 +858,8 @@ showAlertDialog(BuildContext context) {
           '{"sc_id": $edit_id,"sc_name":"$dev_name" , "sc_cmd": "2", "dali_cmd":"$operation_cmd" , "dali_data":"$op_cmd_dis_val", "dali_addr":"$devices", "sc_repeat":"$sc_repeat_val", "sc_destination_addr": "$gatewayid", "sc_hour": "$Hour", "sc_min": "$Min" ,"sc_status":"$status" ,"dev_status": "$op_cmd_dis"  }',
           "679303000/schedule_test");
 
+      /// TO LOCAL HTTP
+
       ///remove all routes pushed until MyApp1 reached
       Navigator.of(context).pushAndRemoveUntil(
           MaterialPageRoute(builder: (context) => NavDrawer()),

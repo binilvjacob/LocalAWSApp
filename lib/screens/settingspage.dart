@@ -345,6 +345,7 @@ class _SettingsWidgetState extends State<SettingsWidget> {
                 child: const Text('Check Status'),
                 onPressed: () {
                   setState(() {
+                    /// TO LOCAL HTTP
                     publish('{"username":"ligero","pass":"pass","echo":1}',
                         "679303000");
                     isChecked1 = false;

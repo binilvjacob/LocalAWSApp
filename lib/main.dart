@@ -351,8 +351,8 @@ Future connect() async {
     certData = await rootBundle.load('assets/client_certificate.pem.crt');
     privateKeyData = await rootBundle.load('assets/private_key.pem.key');
   } catch (e) {}
-  const _iotEndpoint = 'a2g51829pn9fac-ats.iot.us-east-1.amazonaws.com';
-  const _clientId = '683587000001';
+  const _iotEndpoint = 'a2g51829pn9fac-ats.iot.us-east-1.amazo.co';
+  const _clientId = '683587000001SSS';
   client = MqttServerClient.withPort(_iotEndpoint, _clientId, 8883,
       maxConnectionAttempts: 5);
 

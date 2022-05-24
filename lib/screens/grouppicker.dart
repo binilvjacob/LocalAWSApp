@@ -465,6 +465,7 @@ showAlertDialog(BuildContext context) {
           empName: dev1_name, empSalary: op_cmd_dis1, empAge: "$Hour1:$Min1");
       var box = await Hive.openBox<Employee>('employee');
       box.add(addEmployee);
+      /// TO LOCAL HTTP
       publish(
           '{"gateway": "gateway", "lid":devices,"cmd":$operation_cmd1,"data":$operation_cmd1, "hour": $hour1, "min": $min1 ,"status":"$status" }',
           "pattambi/gatewayM");
